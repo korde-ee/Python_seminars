@@ -82,4 +82,22 @@ def myRandomDigit(list, number):
     for i in range(0, n):
         listOfSeconds[i].append(seconds(i))
         
-    
+print('a', 'b', 'c', sep='*')
+print('d', 'e', 'f', sep='**', end='')
+print('g', 'h', 'i', sep='+', end='%')
+print('j', 'k', 'l', sep='-', end='\n')
+print('m', 'n', 'o', sep='/', end='!')
+print('p', 'q', 'r', sep='1', end='%')
+print('s', 't', 'u', sep='&', end='\n')
+print('v', 'w', 'x', sep='%')
+print('y', 'z', sep='/', end='!')
+print()
+a = 1234 // 10
+b = 1234 // 100
+n1 = 1234 // 1000 # первое число
+n2 = 1234 // 100 % 10
+n3 = 1234 // 10 % 10
+n4 = 1234 % 10
+
+print(a, b, n1, sep=",")
+print(n2, n3, n4, sep=",")
